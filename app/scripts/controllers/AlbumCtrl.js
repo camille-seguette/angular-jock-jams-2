@@ -1,9 +1,10 @@
 (function() {
-  function AlbumCtrl() {
-    this.albumData = albumPicasso;
-  }
+    function AlbumCtrl() {
+        this.albumData = albumPicasso;
 
-  angular
-    .module('blocJams')
-    .controller('AlbumCtrl', AlbumCtrl);
+    }
+
+    angular
+        .module('blocJams')
+        .controller('AlbumCtrl', AlbumCtrl);
 })();
