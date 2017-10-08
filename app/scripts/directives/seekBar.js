@@ -30,6 +30,10 @@
           scope.max = newValue;
         });
 
+        attributes.$observe('volume', function(newValue) {
+          scope.volume = newValue;
+        });
+
         var percentString = function() {
           var value = scope.value;
           var max = scope.max;
